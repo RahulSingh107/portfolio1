@@ -11,7 +11,6 @@
 
 <body>
     <!-- DESKTOP NAVIGATION BAR -->
-<div class="front_page">
     <nav id="desktop-nav">
         <div class="logo">
             <img src="./assets/logo.png" alt="This is My logo " class="logo__img" />
@@ -19,12 +18,12 @@
         </div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="nav__bar__contents">About</a></li>
+                <li><a href="#experience" class="nav__bar__contents">Experience</a></li>
+                <li><a href="#projects" class="nav__bar__contents">Projects</a></li>
+                <li><a href="#contact" class="nav__bar__contents">Contact</a></li>
             </ul>
-        </div>  
+        </div>
     </nav>
 
     <!-- HAMBURGER MENU FOR THE MOBILE NAVIGATION -->
@@ -49,39 +48,44 @@
         </div>
     </nav>
     <!-- sections of the portfolio -->
+    <!-- PROFILE SECTION OR HERO SECTION -->
     <section id="profile">
         <div class="section__pic-container">
             <img src="./assets/rahul-profile3.png" alt="Rahul Singh Profile picture" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello I'm</p>
-            <h1 class="title">Rahul Singh</h1>
+            <h1 class=" name">Rahul Singh</h1>
             <p class="section__text__p2">
                 <span class="text_hide">.</span>
                 <a href="" class="typewrite section__text__p2 " data-period="2000" data-type='[ "Developer.",
                  "Learner.", "Student.", "Enthusiast." ]'>
-                  <span class="wrap"></span>
+                    <span class="wrap"></span>
                 </a>
             </p>
-          
+
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn " onclick="window.open('./assets/resume-example.pdf')">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn " onclick="location.href='./#contact'">
                     Contact
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="linkedin profile" class="icon"
-                onclick="location.href='https://www.linkedin.com/in/rahul-singh-01b67b224/'" />
-                <img src="./assets/github.png" alt="github profile" class="icon"
-                onclick="location.href='https://github.com/RahulSingh107'" />
+                <img src="./assets/linkedin.png" alt="linkedin profile" class="icon socials"
+                    onclick="location.href='https://www.linkedin.com/in/rahul-singh-01b67b224/'" />
+                <img src="./assets/github.png" alt="github profile" class="icon socials"
+                    onclick="location.href='https://github.com/RahulSingh107'" />
+                <img src="./assets/twitter.png" alt="github profile" class="icon socials"
+                    onclick="location.href='https://twitter.com/RahulSingh_107_'" />
             </div>
         </div>
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'">
     </section>
-    
-</div>
+
+
+
 
     <!-- ABOUT SECTION -->
     <section id="about">
@@ -94,7 +98,7 @@
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon-2">
                         <h3>Experience</h3>
                         <p>2 years+ <br>
                             Self Learner and Developer
@@ -102,7 +106,7 @@
                     </div>
 
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="experience icon" class="icon">
+                        <img src="./assets/education.png" alt="experience icon" class="icon-2">
                         <h3>Education</h3>
                         <p>B.C.A. Lucknow University <br>
                             M.C.A. Lovely Professional University
@@ -110,26 +114,199 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Hello!!! my name is Rahul, a 22-year-old adventurer , navigating the exciting world of web development. With a thirst for knowledge and a passion for pixels, I'm meticulously delving into both front-end and back-end technologies. Building impactful web experiences that engage and connect excites me – think elegant interfaces that dance with seamless functionality.
+                    <p>Hello!!! my name is Rahul, a 22-year-old adventurer , navigating the exciting world of web
+                        development. With a thirst for knowledge and a passion for pixels, I'm meticulously delving into
+                        both front-end and back-end technologies. Building impactful web experiences that engage and
+                        connect excites me – think elegant interfaces that dance with seamless functionality.
 
-                        I'm not just a code enthusiast, I'm a sponge for learning. Eager to soak up every drop of knowledge, I devour tutorials, embrace challenges, and constantly push my boundaries. Collaboration inspires me, so I relish working with like-minded individuals who share my code-fueled dreams.
-                        
-                        If you're seeking a dedicated learner with a contagious enthusiasm for web development, let's connect! I'm brimming with ideas and eagerness to contribute to projects that spark innovation and leave a lasting digital footprint.</p>
+                        I'm not just a code enthusiast, I'm a sponge for learning. Eager to soak up every drop of
+                        knowledge, I devour tutorials, embrace challenges, and constantly push my boundaries.
+                        Collaboration inspires me, so I relish working with like-minded individuals who share my
+                        code-fueled dreams.
+
+                        If you're seeking a dedicated learner with a contagious enthusiasm for web development, let's
+                        connect! I'm brimming with ideas and eagerness to contribute to projects that spark innovation
+                        and leave a lasting digital footprint.</p>
                 </div>
             </div>
         </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" 
-        class="icon arrow" onclick="location.href='./#experience'">
+
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
-<section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title"> Experience</h1>
-    <div class="experience-details-container"></div>
-</section>
-   
+    </div>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/html.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/css.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/javascript.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/react.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>React js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/tailwind.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/sass.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/database.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/nodejs.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Node-Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/expressjs.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Express js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/git.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <!--PROJECT SECTION -->
+    <section id="projects">
+        <p class="section__text__p1">Browser My Recent</p>
+        <h3 class="title">Projects</h3>
+        <div class="experience-details-container ">
+            <div class="about-containers">
+                <div class="details-container color-container pop-container">
+                    <div class="article-container ">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="button-container">
+                        
+                            
+                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt=""
+                             onclick="location.href='https://github.com/RahulSingh107'">
+                       
+                       <img src="./assets/live.png" alt="live" class="icon project-icon" 
+                       onclick="location.href='https://github.com/RahulSingh107'">
+
+                    </div>
+                </div>
+                <div class="details-container color-container pop-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="button-container">
+                        
+                           
+                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt="" 
+                             onclick="location.href='https://github.com/RahulSingh107'">
+                       
+                        <img src="./assets/live.png" alt="live" class="icon project-icon" 
+                       onclick="location.href='https://github.com/RahulSingh107'">
+
+                    </div>
+                </div>
+                <div class="details-container color-container pop-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="button-container">
+            
+                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt=""
+                             onclick="location.href='https://github.com/RahulSingh107'"
+                            >
+                       
+                        <img src="./assets/live.png" alt="live" class="icon project-icon" 
+                        onclick="location.href='https://github.com/RahulSingh107'">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <p class="section__text__p1"> 
+            Get in touch
+        </p>
+        <h1 class="title">Contact Me!!</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon"  class="icon-2 contact-icon"
+                >
+                <p><a href="mailto:rsingh69749@gmail.com"> rsingh69749@gmail.com</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/call.png" alt="linkedin icon"  class="icon-2 contact-icon"
+                >
+                <p><a href="tel:+917234035049"> +91-7234035049</a> </p>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
-    <script src="animation.js"></script>
+    <script src="animation.js">
+    </script>
 </body>
 
 </html>

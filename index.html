@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="top"> </div>
     <!-- DESKTOP NAVIGATION BAR -->
     <nav id="desktop-nav">
         <div class="logo">
@@ -29,8 +30,8 @@
     <!-- HAMBURGER MENU FOR THE MOBILE NAVIGATION -->
 
     <nav id="hamburger-nav">
-        <div class="logo">
-            <img src="./assets/logo.png" alt="This is My logo " class="logo__img" />
+        <div class="logo" id="top-logo">
+            <img src="./assets/logo.png" alt="This is My logo " class="logo__img"  />
             AHUL
         </div>
         <div class="hamburger-menu">
@@ -304,6 +305,10 @@
             </div>
         </div>
     </section>
+    <footer>
+        <img src="./assets/arrow-up.png" alt="Arrow icon" class="icon arrow-up"
+         onclick="location.href='./#top'">
+    </footer>
     <script src="script.js"></script>
     <script src="animation.js">
     </script>

@@ -101,7 +101,7 @@ cursor: default;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: transparent;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -457,10 +457,12 @@ article .icon{
 }
 /* CONTACT */
 #contact{
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
 
 }
 .contact-info-upper-container{
@@ -485,4 +487,13 @@ article .icon{
 }
 .contact-icon{
 height: 3rem;
+}
+footer{
+    height: 30vh;
+}
+.arrow-up{
+    justify-content: center;
+    position:relative;
+    margin-left: 50%;
+    height: 5rem;
 }

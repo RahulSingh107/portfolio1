@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="JavaScript, Rahul,RahulSingh107,Portfolio,netlify>
-    <meta name="keywords" content="HTML,CSS,JavaScript,Portfolio,Professional,Frontend,RahulSingh107, RahulSingh_107_,Rahul Singh">
+    <meta name=" keywords"
+        content="HTML,CSS,JavaScript,Portfolio,Professional,Frontend,RahulSingh107, RahulSingh_107_,Rahul Singh">
     <title>Rahul portfolio</title>
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
@@ -34,7 +35,7 @@
 
     <nav id="hamburger-nav">
         <div class="logo" id="top-logo">
-            <img src="./assets/logo.png" alt="This is My logo " class="logo__img"  />
+            <img src="./assets/logo.png" alt="This is My logo " class="logo__img" />
             AHUL
         </div>
         <div class="hamburger-menu">
@@ -45,19 +46,19 @@
             </div>
             <div class="menu-links">
                 <ul>
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
     <!-- sections of the portfolio -->
     <!-- PROFILE SECTION OR HERO SECTION -->
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/photo2.png" alt="Rahul Singh Profile picture"  class="profile-pic"/>
+        <div class="section__pic-container profile_pic_container">
+            <img src="./assets/photo2.png" alt="Rahul Singh Profile picture" class="profile-pic" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello I'm</p>
@@ -151,42 +152,42 @@
                     <h2 class="experience-sub-title">Frontend development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/html.png" alt="Experience icon" class="icon">
+                            <img src="./assets/html.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>HTML</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/css.png" alt="Experience icon" class="icon">
+                            <img src="./assets/css.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>CSS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/javascript.png" alt="Experience icon" class="icon">
+                            <img src="./assets/javascript.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>JavaScript</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/react.png" alt="Experience icon" class="icon">
+                            <img src="./assets/react.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>React js</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/tailwind.png" alt="Experience icon" class="icon">
+                            <img src="./assets/tailwind.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Tailwind</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/sass.png" alt="Experience icon" class="icon">
+                            <img src="./assets/sass.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>SASS</h3>
                                 <p>Basic</p>
@@ -199,7 +200,7 @@
                     <h2 class="experience-sub-title">Backend development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/database.png" alt="Experience icon" class="icon">
+                            <img src="./assets/database.png" loading="lazy" alt="Experience icon" class="icon">
                             <div>
                                 <h3>SQL</h3>
                                 <p>Experienced</p>
@@ -240,49 +241,75 @@
             <div class="about-containers">
                 <div class="details-container color-container pop-container">
                     <div class="article-container ">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-1.png" loading="lazy" alt="Project 1" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">NASA-APOD</h2>
+                    <h6> Explore the cosmos with our NASA Picture of the Day website, featuring a new awe-inspiring
+                        space image daily. Stay captivated by the universe's wonders with fresh updates every day!</h6>
+
                     <div class="button-container">
-                        
-                            
-                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt=""
-                             onclick="location.href='https://github.com/RahulSingh107'">
-                       
-                       <img src="./assets/live.png" alt="live" class="icon project-icon" 
-                       onclick="location.href='https://github.com/RahulSingh107'">
+
+
+                        <!-- <img src="./assets/github.png" class="icon project-icon" alt=""
+                            onclick="location.href='https://github.com/RahulSingh107/Nasa-API-Website/tree/master'"> -->
+                        <a href="https://github.com/RahulSingh107/Nasa-API-Website/tree/master" target="_blank">
+                            <img src="./assets/github.png" class="icon project-icon" alt="">
+                        </a>
+
+                        <!-- <img src="./assets/live.png" alt="live" class="icon project-icon"
+                            onclick="location.href='https://github.com/RahulSingh107'"> -->
+                        <a href="https://pictureofthedayapod.netlify.app/" target="_blank">
+                            <img src="./assets/live.png" alt="live" class="icon project-icon">
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+                <div class="details-container color-container pop-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" loading="lazy" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">MissionX</h2>
+                    <h6>Welcome to Mission X, your gateway to the latest in space exploration and innovation. Discover
+                        groundbreaking missions and cutting-edge technology shaping the future of space travel.</h6>
+                    <div class="button-container">
+
+
+                        <!-- <img src="./assets/github.png" class="icon project-icon" alt=""
+                            onclick="location.href='https://github.com/RahulSingh107'"> -->
+                        <a href="https://github.com/RahulSingh107/SpaceX-clone" target="_blank">
+                            <img src="./assets/github.png" class="icon project-icon" alt="">
+                        </a>
+
+                        <!-- <img src="./assets/live.png" alt="live" class="icon project-icon"
+                            onclick="location.href='https://github.com/RahulSingh107'"> -->
+                        <a href="https://rahulsingh107.github.io/SpaceX-clone/" target="_blank">
+                            <img src="./assets/live.png" alt="live" class="icon project-icon">
+                        </a>
+
 
                     </div>
                 </div>
                 <div class="details-container color-container pop-container">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                        <img src="./assets/project-3.png" loading="lazy" alt="Project 3" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Byte-Eater</h2>
+                    <h6>Dive into Byte-Eater, a thrilling Pac-Man clone crafted with HTML Canvas. Navigate mazes, chomp
+                        through bytes, and outsmart ghosts in this nostalgic arcade adventure!</h6>
                     <div class="button-container">
-                        
-                           
-                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt="" 
-                             onclick="location.href='https://github.com/RahulSingh107'">
-                       
-                        <img src="./assets/live.png" alt="live" class="icon project-icon" 
-                       onclick="location.href='https://github.com/RahulSingh107'">
 
-                    </div>
-                </div>
-                <div class="details-container color-container pop-container">
-                    <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 2" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="button-container">
-            
-                            <img src="./assets/github-icon-black.png" class="icon project-icon" alt=""
-                             onclick="location.href='https://github.com/RahulSingh107'"
-                            >
-                       
-                        <img src="./assets/live.png" alt="live" class="icon project-icon" 
-                        onclick="location.href='https://github.com/RahulSingh107'">
+                        <!-- <img src="./assets/github.png" class="icon project-icon" alt=""
+                            onclick="location.href='https://github.com/RahulSingh107'"> -->
+                        <a href="https://github.com/RahulSingh107/Pac-Man" target="_blank">
+                            <img src="./assets/github.png" class="icon project-icon" alt="">
+                        </a>
+
+                        <a href="https://byte-eater.netlify.app/" target="_blank">
+                            <img src="./assets/live.png" alt="live" class="icon project-icon">
+                        </a>
 
                     </div>
                 </div>
@@ -293,27 +320,24 @@
 
     <!-- CONTACT SECTION -->
     <section id="contact">
-        <p class="section__text__p1"> 
+        <p class="section__text__p1">
             Get in Touch
         </p>
         <h1 class="title">Contact Me!!</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="./assets/email.png" alt="email icon"  class="icon-2 contact-icon"
-                >
+                <img src="./assets/email.png" alt="email icon" class="icon-2 contact-icon">
                 <p><a href="mailto:rsingh69749@gmail.com"> rsingh69749@gmail.com</a> </p>
             </div>
             <div class="contact-info-container">
-                <img src="./assets/call.png" alt="call icon"  class="icon-2 contact-icon"
-                >
+                <img src="./assets/call.png" alt="call icon" class="icon-2 contact-icon">
                 <p><a href="tel:+917234035049"> +91-7234035049</a> </p>
             </div>
         </div>
     </section>
     <footer>
-        <img src="./assets/arrow-up.png" alt="Arrow icon" class="icon arrow-up"
-         onclick="location.href='./#top'">
-         <p class="Copyright">Copyright &#169; 2024 Rahul Singh. All Rights Reserved</p>
+        <img src="./assets/arrow-up.png" alt="Arrow icon" class="icon arrow-up" onclick="location.href='./#top'">
+        <p class="Copyright">Copyright &#169; 2024 Rahul Singh. All Rights Reserved</p>
     </footer>
     <script src="script.js"></script>
     <script src="animation.js">

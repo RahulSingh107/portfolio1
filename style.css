@@ -8,10 +8,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(123deg, #b9bcc7, #ffffff 95%);
-
-
-
+    background-image: linear-gradient(123deg, #fffefe, #ababab, rgb(240, 239, 239) 95%);
 }
 
 html{
@@ -207,7 +204,7 @@ color: transparent;
 .name{
     background: linear-gradient(to left,
     rgb(109, 109, 109),
-    rgb(6, 124, 179)
+    rgb(13, 14, 15)
     
     
 );
@@ -217,7 +214,7 @@ color: transparent;
     text-align: center;
 }
 .title{
-color: #8f96e2;
+color: #000000;
  font-size: 3rem;
     text-align: center;
 }
@@ -384,7 +381,9 @@ color: #8f96e2;
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
 }
+
 
 /* EXPERIENCE SECTION  */
 #experience{
@@ -399,11 +398,12 @@ color: #8f96e2;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
-.experience-sub-titile{
-    color: rgb(85, 85, 85);
+.experience-sub-title{
+    color: rgb(6, 6, 6);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+     
 }
 .experience-details-container{
     display: flex;
@@ -462,7 +462,7 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
     
 
 }
@@ -504,3 +504,4 @@ footer p{
     text-align:end;
     margin-top: 8rem;
 }
+/* Implementing lazy loading to all images */

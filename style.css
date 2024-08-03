@@ -58,7 +58,8 @@ transition: all 0.5s ease-in-out;
     rgb(91, 91, 91)
     
     
-);
+    );
+    text-decoration:underline;
 -webkit-background-clip: text;
 color: transparent; 
    
